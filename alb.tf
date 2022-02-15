@@ -29,8 +29,6 @@ module "alb" {
       target_type      = "instance"
     }
   ]
-  */
-
 
   http_tcp_listeners = [
     {
@@ -39,6 +37,8 @@ module "alb" {
       target_group_index = 0
     }
   ]
+  */
+
 
   tags = {
     Environment = "Test"

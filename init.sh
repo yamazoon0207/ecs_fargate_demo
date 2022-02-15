@@ -11,6 +11,8 @@ echo terraform validate
 terraform validate
 echo error-level:$?
 echo 
+echo tflint --init
+tflint --init
 echo tflint
 tflint
 echo error-level:$?
